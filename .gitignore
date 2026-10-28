@@ -1,0 +1,8 @@
+node_modules/
+.site-output/
+.edgeone/
+.dev-data/
+.env*
+.DS_Store
+*.log
+coverage/

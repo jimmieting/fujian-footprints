@@ -1,0 +1,25 @@
+{
+  "name": "fujian-footprints",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "test": "node --test tests/*.test.mjs",
+    "build": "node scripts/build.mjs",
+    "dev": "node scripts/dev.mjs",
+    "check": "node scripts/check.mjs",
+    "test:live": "node tests/live-fujian.mjs"
+  },
+  "dependencies": {
+    "@edgeone/pages-blob": "0.0.18"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "description": "福建84县区足迹地图，支持免登录保存码和跨设备恢复。",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jimmieting/fujian-footprints.git"
+  },
+  "homepage": "https://jimmie.cn/fujian/"
+}
